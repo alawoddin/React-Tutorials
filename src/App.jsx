@@ -6,6 +6,8 @@ function App() {
   const name = "alawoddin";
 
   const active = false;
+
+  const x = 10;
  
 
   return (
@@ -21,6 +23,15 @@ function App() {
     </h1>
 
     <button disabled={active}>click me</button>
+
+
+    {x === 10 ? <h1> the value is 10 </h1> : <h1>the value is not 10</h1>}
+
+    { x === 10 && <h1>the value is 10</h1>}
+
+    {x === 10 && <h1> the value is 10 </h1>}
+
+
 
 
     </>
