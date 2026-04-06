@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Components/Header';
 
 const Demo = () => {
 
@@ -11,6 +12,8 @@ const Demo = () => {
 
     return (
         <div>
+
+            <Header />
 
             <h1 className='myname' style={{ color: "blue" }}>hello {name}</h1>
 
