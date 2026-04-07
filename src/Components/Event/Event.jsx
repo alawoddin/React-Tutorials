@@ -24,6 +24,10 @@ const Event = () => {
         console.log("key down");
     }
 
+    const ClickButton = () => {
+        console.log("the button is clicked");
+    }
+
 
 
     return (
@@ -37,6 +41,10 @@ const Event = () => {
 
             {/* <input type="text" onKeyDown={() => console.log("key down")} /> */}
             <input type='text' onKeyDown={keydown} />
+
+            {/* <button onClick={ () => alert("why you click me")}>click me </button> */}
+
+            <button onClick={ClickButton}>click me </button>
 
             <form onSubmit={handlesubmit}>
                 <button   type='submit'>send</button>
