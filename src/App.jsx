@@ -1,7 +1,8 @@
 
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css'
 import Demo from './App/Demo'
+import List from './Components/List'
 
 
 function App() {
@@ -12,15 +13,19 @@ function App() {
 
   // const x = 10;
   
-  const isLogin = false;
+  // const isLogin = false;
 
-  const [name , setName] = useState("");
+  // const [name , setName] = useState("");
 
-  const [fname , setFname] = useState("");
+  // const [fname , setFname] = useState("");
 
   return (
     <>
 
+    <List />
+
+
+{/* 
     <input type="text" onChange={(e) => setName(e.target.value) } name="" id="" />
 
     {name && <h1>your name is : {name}</h1>}
@@ -36,7 +41,7 @@ function App() {
       <h1>welcome to the class</h1>
     ) : (
       <h1>i am sorry your login give error </h1>
-    )}
+    )} */}
 
       {/* {isLogin ? (
         <h1>welcome to the class</h1>
