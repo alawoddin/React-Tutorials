@@ -4,7 +4,7 @@ const Form = () => {
 
     const [name , setName] = useState("");
 
-    const [job , setJob] = useState("");
+    // const [job , setJob] = useState("");
 
     function handlechange(e) {
         setName(e.target.value);

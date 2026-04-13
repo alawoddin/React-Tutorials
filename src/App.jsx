@@ -4,6 +4,7 @@ import './App.css'
 import Demo from './App/Demo'
 import List from './Components/List'
 import Form from './Components/Event/Form';
+import Textarea from './Components/Event/Textarea';
 
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
 
     {/* <List /> */}
 
-    <Form />
+    {/* <Form /> */}
+
+    <Textarea />
 
 
 {/* 
