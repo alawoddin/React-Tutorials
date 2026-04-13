@@ -1,13 +1,15 @@
+/* eslint-disable react-hooks/static-components */
 
 // import { useState } from 'react';
 import './App.css';
-import styles from './style.module.css'
+// import styles from './style.module.css'
 import Demo from './App/Demo'
 import List from './Components/List'
 import Form from './Components/Event/Form';
 import Textarea from './Components/Event/Textarea';
 import Task from './Components/Task/Task';
 import Opation from './Components/Event/Opation';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
 
 function App() {
@@ -24,8 +26,37 @@ function App() {
 
   // const [fname , setFname] = useState("");
 
+  function Home() {
+  return <h1>Home Page</h1>;
+}
+
+function About() {
+  return <h1>About Page</h1>;
+}
+
+function Contact() {
+  return <h1>Contact Page</h1>;
+}
+
+
+
   return (
     <>
+
+    <BrowserRouter>
+    <nav>
+      <Link to='/'>Home</Link>
+      <Link to='/about'>About</Link>
+      <Link to='/contact'>Contact</Link>
+    </nav>
+
+
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path='/about' element={<About/>} />
+      <Route path='/contact' element={<Contact/>} />
+    </Routes>
+    </BrowserRouter>
 
     {/* <List /> */}
 
@@ -35,7 +66,7 @@ function App() {
 
     {/* <Task /> */}
 
-    <h1 className={styles.h1}>hello world</h1>
+    {/* <h1 className={styles.h1}>hello world</h1> */}
 
     {/* <Opation /> */}
 
