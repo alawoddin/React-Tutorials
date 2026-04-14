@@ -11,6 +11,7 @@ import Task from './Components/Task/Task';
 import Opation from './Components/Event/Opation';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Main from './Components/State/Main';
+import Effect from './Components/State/Effect';
 
 
 function App() {
@@ -44,7 +45,8 @@ function Contact() {
   return (
     <>
 
-    <Main />
+    {/* <Main /> */}
+    <Effect />
 
     {/* <BrowserRouter>
     <nav>

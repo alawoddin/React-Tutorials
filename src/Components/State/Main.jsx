@@ -4,8 +4,19 @@ const Main = () => {
 
     const [count , setCount] = useState(0);
 
+    const [color , setColor] = useState("red");
+
 
     return (
+
+            <>
+
+        <h1 style={{ color: color}}>my favorite color is {color}</h1>
+
+        <button onClick={() => setColor("blue")}>click blue</button>
+
+        <button onClick={() => setColor("green")}>click green</button>
+
         <div>
 
             <h1>{count}</h1>
@@ -13,6 +24,9 @@ const Main = () => {
             <button onClick={() => setCount(count +1)}>Inrease</button>
 
         </div>
+
+        </>
+
     );
 };
 
