@@ -10,6 +10,7 @@ import Textarea from './Components/Event/Textarea';
 import Task from './Components/Task/Task';
 import Opation from './Components/Event/Opation';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import Main from './Components/State/Main';
 
 
 function App() {
@@ -43,7 +44,9 @@ function Contact() {
   return (
     <>
 
-    <BrowserRouter>
+    <Main />
+
+    {/* <BrowserRouter>
     <nav>
       <Link to='/'>Home</Link>
       <Link to='/about'>About</Link>
@@ -56,7 +59,7 @@ function Contact() {
       <Route path='/about' element={<About/>} />
       <Route path='/contact' element={<Contact/>} />
     </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
 
     {/* <List /> */}
 
