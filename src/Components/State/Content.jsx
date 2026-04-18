@@ -1,10 +1,8 @@
-import React, { createContext, useContext } from 'react';
+import React, { createContext, useContext } from "react";
+
+const UserContext = createContext();
 
 const Content = () => {
-
-    const UserContext = createContext();
-
-    const Content = () => {
 
   function Profile() {
     const user = useContext(UserContext);
@@ -18,20 +16,17 @@ const Content = () => {
     return <h1>I am {name}</h1>;
   }
 
-}
-
-
-    return (
-          <div>
+  return (
+    <div>
       <UserContext.Provider value="alawoddin">
-        <Profile /> 
+        <Profile />
       </UserContext.Provider>
 
       <UserContext.Provider value="developer">
         <Explain />
       </UserContext.Provider>
     </div>
-    );
+  );
 };
 
 export default Content;
