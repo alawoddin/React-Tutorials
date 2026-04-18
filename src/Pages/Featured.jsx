@@ -21,7 +21,7 @@ const Featured = () => {
           <div className="card h-100">
             <a href="shop-single.html">
               <img
-                src="./assets/img/feature_prod_01.jpg"
+                src="../public/img/feature_prod_01.jpg"
                 className="card-img-top"
                 alt="..."
               />
@@ -55,7 +55,7 @@ const Featured = () => {
           <div className="card h-100">
             <a href="shop-single.html">
               <img
-                src="./assets/img/feature_prod_02.jpg"
+                src="../public/img/feature_prod_02.jpg"
                 className="card-img-top"
                 alt="..."
               />
@@ -89,7 +89,7 @@ const Featured = () => {
           <div className="card h-100">
             <a href="shop-single.html">
               <img
-                src="./assets/img/feature_prod_03.jpg"
+                src="../public/img/feature_prod_03.jpg"
                 className="card-img-top"
                 alt="..."
               />

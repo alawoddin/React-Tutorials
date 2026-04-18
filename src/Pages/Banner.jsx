@@ -32,7 +32,7 @@ const Banner = () => {
             <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
               <img
                 className="img-fluid"
-                src="./assets/img/banner_img_01.jpg"
+                src="../public/img/banner_img_01.jpg"
                 alt=""
               />
             </div>
@@ -94,7 +94,7 @@ const Banner = () => {
             <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
               <img
                 className="img-fluid"
-                src="./assets/img/banner_img_02.jpg"
+                src="../public/img/banner_img_02.jpg"
                 alt=""
               />
             </div>
@@ -119,7 +119,7 @@ const Banner = () => {
             <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
               <img
                 className="img-fluid"
-                src="./assets/img/banner_img_03.jpg"
+                src="../public/img/banner_img_03.jpg"
                 alt=""
               />
             </div>

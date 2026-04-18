@@ -19,7 +19,7 @@ const Categories = () => {
       <div className="col-12 col-md-4 p-5 mt-3">
         <a href="#">
           <img
-            src="./assets/img/category_img_01.jpg"
+            src="../public/img/category_img_01.jpg"
             className="rounded-circle img-fluid border"
           />
         </a>
@@ -31,7 +31,7 @@ const Categories = () => {
       <div className="col-12 col-md-4 p-5 mt-3">
         <a href="#">
           <img
-            src="./assets/img/category_img_02.jpg"
+            src="../public/img/category_img_02.jpg"
             className="rounded-circle img-fluid border"
           />
         </a>
@@ -43,7 +43,7 @@ const Categories = () => {
       <div className="col-12 col-md-4 p-5 mt-3">
         <a href="#">
           <img
-            src="./assets/img/category_img_03.jpg"
+            src="../public/img/category_img_03.jpg"
             className="rounded-circle img-fluid border"
           />
         </a>
