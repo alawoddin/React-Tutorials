@@ -176,7 +176,7 @@ const Footer = () => {
         <div className="row pt-2">
           <div className="col-12">
             <p className="text-left text-light">
-              Copyright © 2026 Khedmat Shop | Designed by{" alawoddin khedmat "}
+              Copyright © 2026 Khedmat Shop | Designed by{"  "}
               <a rel="sponsored" href="https://templatemo.com" target="_blank">
                 Template
               </a>
