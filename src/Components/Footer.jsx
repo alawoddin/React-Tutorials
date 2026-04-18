@@ -10,17 +10,17 @@ const Footer = () => {
       <div className="row">
         <div className="col-md-4 pt-5">
           <h2 className="h2 text-success border-bottom pb-3 border-light logo">
-            Zay Shop
+            Khedmat Shop
           </h2>
           <ul className="list-unstyled text-light footer-link-list">
             <li>
               <i className="fas fa-map-marker-alt fa-fw" />
-              123 Consectetur at ligula 10660
+              123 kabul Afghanistan
             </li>
             <li>
               <i className="fa fa-phone fa-fw" />
               <a className="text-decoration-none" href="tel:010-020-0340">
-                010-020-0340
+                0730303820
               </a>
             </li>
             <li>
@@ -176,9 +176,9 @@ const Footer = () => {
         <div className="row pt-2">
           <div className="col-12">
             <p className="text-left text-light">
-              Copyright © 2021 Company Name | Designed by{" "}
+              Copyright © 2026 Khedmat Shop | Designed by{" "}
               <a rel="sponsored" href="https://templatemo.com" target="_blank">
-                TemplateMo
+                Template
               </a>
             </p>
           </div>

@@ -24,7 +24,7 @@ const Nav = () => {
             className="navbar-sm-brand text-light text-decoration-none"
             href="tel:010-020-0340"
           >
-            010-020-0340
+            0730303820
           </a>
         </div>
         <div>

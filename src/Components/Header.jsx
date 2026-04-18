@@ -12,7 +12,7 @@ const Header = () => {
         className="navbar-brand text-success logo h1 align-self-center"
         href="index.html"
       >
-        Zay
+        Khedmat
       </a>
       <button
         className="navbar-toggler border-0"
