@@ -12,6 +12,7 @@ import Opation from './Components/Event/Opation';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Main from './Components/State/Main';
 import Effect from './Components/State/Effect';
+import Content from './Components/State/Content';
 
 
 function App() {
@@ -46,7 +47,9 @@ function Contact() {
     <>
 
     {/* <Main /> */}
-    <Effect />
+    {/* <Effect /> */}
+
+    <Content />
 
     {/* <BrowserRouter>
     <nav>
