@@ -1,5 +1,6 @@
 
 // import { useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
@@ -19,7 +20,17 @@ function App() {
   return (
     <>
 
-    <Home/>
+<BrowserRouter>
+  <Routes>
+    <Route path='/' element={<Home />} />
+    <Route path='/categories' element={<Categories />} />
+    <Route path='/featured' element={<Featured />} />
+  </Routes>
+</BrowserRouter>
+
+
+  
+
 
 
 

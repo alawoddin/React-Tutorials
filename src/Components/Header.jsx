@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -31,9 +32,9 @@ const Header = () => {
         <div className="flex-fill">
           <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">
             <li className="nav-item">
-              <a className="nav-link" href="index.html">
+              <Link className="nav-link" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="about.html">
